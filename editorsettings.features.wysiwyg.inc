@@ -62,7 +62,6 @@ function editorsettings_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
-    'rdf_mapping' => array(),
   );
 
   // Exported profile: full_html
@@ -107,6 +106,9 @@ function editorsettings_wysiwyg_default_profiles() {
         'media' => array(
           'media' => 1,
         ),
+        'linkit' => array(
+          'linkit' => 1,
+        ),
         'drupal' => array(
           'media' => 1,
         ),
@@ -126,7 +128,6 @@ function editorsettings_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
-    'rdf_mapping' => array(),
   );
 
   return $profiles;
