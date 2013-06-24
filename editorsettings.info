@@ -1,0 +1,15 @@
+name = Editorsettings
+description = Basic settings for TinyMCE
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = editorsettings
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = media
+dependencies[] = wysiwyg
+features[features_api][] = api:1
+features[filter][] = filtered_html
+features[filter][] = full_html
+features[wysiwyg][] = filtered_html
+features[wysiwyg][] = full_html
